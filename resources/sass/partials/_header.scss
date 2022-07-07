@@ -1,0 +1,92 @@
+header{
+    .flex-end{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    
+
+    .container{
+        max-width: var(--container-md);
+        margin: auto;
+    }
+    .header-top{
+        color: white;
+        background-color: var(--primary-color);
+        padding: .3125rem;
+
+        small{
+            text-transform: uppercase;
+            padding-left: 1.25rem;
+            font-size: .625rem;
+            display: flex;
+            align-items: center;
+            i{
+                padding-left: .3125rem;
+            }
+        }
+ 
+    }
+    .header-bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .9375rem 0rem;
+
+        .logo-img{
+            width: 5rem;
+        }
+
+        nav{
+            ul{
+                display: flex;
+                li{
+                    list-style: none;
+                    padding: 0px .75rem;
+                    font-size: .75rem;
+
+                }
+                a{
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    color: black;
+                    
+                    i{
+                        color: var(--primary-color);
+                    }
+                }
+
+                .active { // header__nav ul .active a
+                    color: var(--primary-color);
+                    border-bottom: 4px solid var(--primary-color) ;
+                }
+                
+            }    
+        }
+
+        .input-box{
+            border-bottom: .125rem solid var(--primary-color);
+            input{
+                text-align: right;
+                border: none;
+                padding-right: .625rem;
+                width: 6.25rem;
+                padding-bottom: .3125rem;
+                i{
+                    padding-left: .625rem;
+                   
+                }
+            }
+        }
+
+    }
+
+    .jumbo{
+        background-image: url(../../../public/img/jumbotron.jpg);
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+    }
+  
+}
