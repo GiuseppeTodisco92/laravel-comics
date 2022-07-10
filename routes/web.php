@@ -14,5 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $comics = config('comics');
+    // dd($comics); var dump
+    return view('home',['comics' => $comics]);
+    // alternativa funzione compact , compact('comics')
+});
+
+// rotta dinamica 
+Route::get('comicPage/{id}', function ($id) {
+    $comics = config('comics');
+    return $id;
 });

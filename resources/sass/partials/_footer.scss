@@ -1,29 +1,27 @@
-footer{
-    .footer-top{
-        background-color: var(--primary-color);
+.footer-top{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+
+    img{
+        width: 3.125rem;
+    }
+
+    ul{
         display: flex;
-        justify-content: center;
-
-        img{
-            width: 3.125rem;
-        }
-
-        ul{
+        li{
+            list-style: none;
             display: flex;
-            li{
-                list-style: none;
+            align-items: center;
+            padding: 1.25rem;
+
+            a{
+                text-decoration: none;
                 display: flex;
                 align-items: center;
-                padding: 1.25rem;
-
-                a{
-                    text-decoration: none;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    color: white;
-                    padding: .625rem;
-                }
+                justify-content: center;
+                color: white;
+                padding: .625rem;
             }
         }
     }

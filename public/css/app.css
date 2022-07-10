@@ -10446,28 +10446,28 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-footer .footer-top {
+.footer-top {
   background-color: var(--primary-color);
   display: flex;
   justify-content: center;
 }
 
-footer .footer-top img {
+.footer-top img {
   width: 3.125rem;
 }
 
-footer .footer-top ul {
+.footer-top ul {
   display: flex;
 }
 
-footer .footer-top ul li {
+.footer-top ul li {
   list-style: none;
   display: flex;
   align-items: center;
   padding: 1.25rem;
 }
 
-footer .footer-top ul li a {
+.footer-top ul li a {
   text-decoration: none;
   display: flex;
   align-items: center;
