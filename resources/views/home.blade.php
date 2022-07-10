@@ -5,14 +5,22 @@
 @endsection
 
 @section('page-content')
-    @dump($comics)
-    <ul>
-        @foreach ($comics as $comic)
-        <li>
-            <x-card-comics :image="$comic['thumb']" :title="$comic['title']" />
-        </li>
-        @endforeach
-    </ul>
+    <div class="comic-box">
+        <div class="container">
+            <ul class="img-list">
+                @foreach ($comics as $index => $comic)
+         
+                <li>
+                   <a href="{{route('comicPage',['id' => $index])}}"> 
+                    <x-card-comics :image="$comic['thumb']" :title="$comic['title']" />
+                </a>
+                </li>
+                @endforeach
+            </ul>
+
+        </div>
+
+    </div>
    
 
     <div class="footer-top">

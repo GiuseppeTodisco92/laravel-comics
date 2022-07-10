@@ -1,0 +1,15 @@
+.comic-box{
+    background-color: var(--secondary-color);
+}
+
+.container{
+    max-width: var(--container-md);
+    margin:auto;
+
+    .img-list{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: center;
+    }
+}

@@ -10476,3 +10476,139 @@ body {
   padding: 0.625rem;
 }
 
+.container {
+  max-width: var(--container-md);
+  margin: auto;
+  position: relative;
+}
+
+.container .img-comic {
+  position: absolute;
+  top: -350px;
+  left: 0px;
+}
+
+.container .img-comic img {
+  border: 1px solid white;
+}
+
+.comic-book-background {
+  background-color: var(--primary-color);
+  height: 100px;
+}
+
+.box-data {
+  display: flex;
+  gap: 1.25rem;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.box-data p {
+  color: #717885;
+  padding-top: 0.625rem;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.box-data .data h1 {
+  text-transform: uppercase;
+  color: #003f5e;
+  padding-bottom: 20px;
+}
+
+.box-data .data .price-box {
+  border-bottom: 1px solid black;
+  padding: 0.9375rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #55ba59;
+  color: #aef988;
+}
+
+.box-data .data .price-box .white-color {
+  color: white;
+}
+
+.box-data .data .price-box .available {
+  text-transform: uppercase;
+  padding-right: 0.625rem;
+}
+
+.box-data .data .price-box .check {
+  padding: 15px;
+  border-left: 1px solid black;
+}
+
+.box-data .box-advertisement h4 {
+  color: #5e6570;
+  text-transform: uppercase;
+  text-align: right;
+  padding-bottom: 0.3125rem;
+}
+
+.footer-comicPage {
+  background-color: #f6f6f6;
+  border: 1px solid #ebebeb;
+}
+
+.footer-comicPage .d-flex {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.footer-comicPage .d-flex .column-title {
+  width: 50%;
+  padding-bottom: 150px;
+}
+
+.footer-comicPage .d-flex .column-title h3 {
+  border-bottom: 1px solid #ebebeb;
+  padding: 1.25rem 0px;
+  color: #003f5e;
+}
+
+.footer-comicPage .d-flex .list-by {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.625rem 0px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.footer-comicPage .d-flex .list-by p {
+  width: 70%;
+  font-size: 12px;
+  color: #5bb8e3;
+}
+
+.footer-comicPage .d-flex .list-by h5 {
+  width: 70%;
+  color: #717885;
+}
+
+.footer-comicPage .d-flex .list-by h6 {
+  color: #003f5e;
+  font-size: 12px;
+}
+
+.footer-comicPage .d-flex .list-by .series {
+  text-transform: uppercase;
+  color: #5bb8e3;
+}
+
+.comic-box {
+  background-color: var(--secondary-color);
+}
+
+.container {
+  max-width: var(--container-md);
+  margin: auto;
+}
+
+.container .img-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+
